@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabasePollAndRelayToHTTP", "DatabasePollAndRelayToHTTP\DatabasePollAndRelayToHTTP.csproj", "{68979E68-E2F9-41E1-9835-A2D4AA409756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68979E68-E2F9-41E1-9835-A2D4AA409756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68979E68-E2F9-41E1-9835-A2D4AA409756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68979E68-E2F9-41E1-9835-A2D4AA409756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68979E68-E2F9-41E1-9835-A2D4AA409756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

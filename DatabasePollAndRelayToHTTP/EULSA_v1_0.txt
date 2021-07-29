@@ -1,0 +1,355 @@
+_____________________________________________________
+
+Kremowka End User Licence and Service Agreement
+Version 1.0 (EULSA v1.0)
+_____________________________________________________
+
+Contents
+1.	APPLICATION	4
+2.	INTERPRETATION	4
+3.	GRANT OF LICENCE	7
+4.	INTELLECTUAL PROPERTY	8
+5.	DEFENCE AGAINST INFRINGEMENT CLAIMS	9
+6.	SUPPORT SERVICES	10
+7.	OUT OF SCOPE SERVICES	13
+8.	CHARGES AND PAYMENT	14
+9.	WARRANTIES	15
+10.	LIABILITY AND EXCLUSIONS	18
+11.	CONFIDENTIALITY	20
+12.	TERM AND TERMINATION	21
+13.	EFFECT OF TERMINATION	22
+14.	FORCE MAJEURE	22
+15.	NOTICES	22
+16.	DATA PROTECTION	23
+17.	RELATIONSHIP OF PARTIES	23
+18.	VARIATION	23
+19.	WAIVERS	23
+20.	ASSIGNMENT	23
+21.	SEVERANCE	24
+22.	AFFILIATES AND CONTRACTORS	24
+23.	ENTIRE AGREEMENT	24
+24.	GOVERNING LAW AND JURISDICTION	25
+25.	DISPUTE RESOLUTION	25
+26.	MISCELLANEOUS	26
+SCHEDULE 1.	DATA PROCESSING AGREEMENT (“DPA”)	27
+
+1. APPLICATION
+1.1 We are Kremowka Limited incorporated and registered in Cyprus (Company No. HE404521) whose registered office is at ABC Business Centre, 5th Floor, Office 503, Grigori Afxentiou & Charalambou Mouskou Corner, Paphos, Cyprus ("Kremowka"), a company developing and supporting Software to detect, prevent and investigate money laundering, fraud, and compliance breaches (Software).
+1.2 This End User Licence and Service Agreement (“Agreement”) is entered into by and between Kremowka and you ("Client"), either as an individual or a company for business purposes only. By downloading or otherwise making use of the Software, having legitimately obtained Software directly from Kremowka or via Marketplace Subscription, the client acknowledges acceptance of the terms of this Agreement.  If You do not accept these terms of this Agreement, use of the Software is prohibited and you should not download the Software.
+1.3 The Client acknowledges that it shall be responsible for the breaches of any End Users under this Agreement as if it were its own breaches.
+
+2. INTERPRETATION
+2.1 The definitions and rules of interpretation in this clause apply in this Agreement.
+‘Affiliate’ means, with respect to a Party, any entity that directly, or indirectly through one or more intermediaries, controls, or is controlled by, or is under common control with such Party.
+‘Business Process Outsourcing’ means Business Process Outsourcing, or BPO, refers to the process of engaging contractors or affiliates to handle standard business functions outside of the company.
+‘Confidential Information’ means all proprietary commercial information received from the other party which a reasonable person would regard as confidential, and in the case of information disclosed by Kremowka expressly includes all information and source code materials relating to the Software.
+‘Documentation’ means the user guides, manuals, instructions, specifications, notes, documentation, printed updates, “read-me” files, release notes and other materials related to the Software (including all information included or incorporated by reference in the applicable Standard Contract Listing), its use, operation, or maintenance, together with all enhancements, modifications, derivative works, and amendments to those documents, that Licensor publishes or provides under this Agreement.
+‘End User’ means the Client or its directors, officers, employees, non-employee workers, agents, auditors, consultants, contractors, subcontractors, and any other person who is authorised by the Client to access the Software or who is performing services on behalf of the Client who accesses or otherwise makes use of the Software in any capacity. 
+‘Free Software’ means third-party components of the Software that are subject to the terms and conditions of free software licenses.
+‘Image’ means the provisioning of the Software as a virtual machine image in which a working installation of Software is delivered to the Client using a Provider.  The client may deploy and run the virtual machine image, including the Software, operating system and all applications, services, and information therein.  The Client deploys and runs the Image containing the Software under the Client’s own Provider account on the Provider’s cloud infrastructure.
+'Intellectual Property' means patents, rights to inventions, copyright and related rights, trade marks, business names and domain names, rights in get-up, goodwill and the right to sue for passing off, rights in designs, database rights, rights to use, and protect the confidentiality of, confidential information (including know-how), and all other intellectual property rights, in each case whether registered or unregistered and including all applications and rights to apply for and be granted, renewals or extensions of, and rights to claim priority from, such rights and all similar or equivalent rights or forms of protection which subsist or will subsist now or in the future in any part of the world;
+‘Marketplace’ means a Software marketplace maintained by a Provider.
+‘Marketplace Subscription’ means a subscription ordered by the Client in a Marketplace and fulfilled by Kremowka for the licencing and provision of an Image.
+Open-Source Software means any software subject to a version of the General Public Licence, or free versions of commercial software, together with any other ‘open source’ software falling within the Open-Source Definition issued by the Open-Source Initiative (www.opensource.org/docs/osd) at the date of our Agreement and any ‘free software’ as defined by the Free Software Foundation (www.gnu.org/philosophy/free-sw.html) at the date of our Agreement;
+‘Out of Scope Services’ means the development and additional support services provided by Kremowka in accordance with Clause 7 below.
+‘Provider’ means a cloud infrastructure provider (such as AWS) which provides virtual machine image functionality;
+‘Resolution’ means the provision of a permanent and credible solution to a problem with the Software raised with Kremowka in accordance with Clause 6 .
+‘Software’ means computer Software developed by Kremowka for specific use and any other Software, including any patches, bug fixes, corrections, remediation of security vulnerabilities, updates, upgrades, modifications, enhancements, derivative works, new releases, and new versions of the Software that Kremowka provides, or is obligated to provide, under this Agreement, as may be updated from time-to-time.
+‘Support Services’ means the support services to be provided by Kremowka in accordance with Clause 6 below.
+‘Work Around’ means a temporary resolution to any issue with the Software that the Client has logged with Kremowka in accordance with Clause 6.4(a) whilst Kremowka works on a Resolution to the issue.
+‘Working Hours’ means 08.00 – 18.00 (as appropriate) during weekdays in Cyprus, excluding Cyprus bank holidays.
+2.2 Clause, Schedule, and paragraph headings are inserted for convenience only and shall not affect the interpretation of this Agreement. 
+2.3 A reference to a statute or statutory provision is a reference to it as amended, extended, or re-enacted from time to time.
+2.4 Any words following the terms including, ‘include’, ‘in particular’ or any similar expression shall be construed as illustrative and shall not limit the sense of the words, description, definition, phrase, or term preceding those terms.
+2.5 Words in the singular shall include the plural and, in the plural, include the singular.
+
+3. GRANT OF LICENCE
+3.1 For the duration of this agreement Kremowka grants the Client the non-exclusive, non-transferable right to use the Software solely in obfuscated, machine-readable, executable, object-code, byte-code form, and related documentation, subject to Clause 3.2 and the terms and conditions of this Agreement.
+3.2 The Software is subject to the following restrictions of use:
+(a) The Software may only be used within the Client’s own internal business operations;
+(b) End Users are not permitted to modify or create derivative works of the Software;
+(c) the Software may not comprise a service offered to any persons or entities on a commercial or non-commercial basis nor may use of the Software comprise a component of the same and the client may not Sell, sublicense, rent, lease, distribute, market, or commercialise the Software;
+(d) End Users shall not decompile, disassemble, translate, reverse engineer, or otherwise attempt to derive source code from, any portion of the Software, except and solely to the extent that the foregoing restriction is impermissible in law;
+(e) End Users shall not disable, or tamper with functionality or take any other such measures that are intended to safeguard Kremowka's intellectual Property Rights or the compliance of End Users with this Agreement.
+(f) Neither the Client no its End Users are permitted to publicly disseminate performance information about or analysis of the Software, including benchmarking test results.
+(g) The Client and its End Users shall not permit any third-party to access, view, or use the Software under this Agreement.
+(h) Each Client shall only be permitted to install and maintain a single version of the Software excluding: 
+(i) any installation required to facilitate high availability in production servers; and;
+(ii) any installation required to perform development and testing of the Software prior to the release of the updated Software to the production servers.
+(i) Neither the Client nor its End Users shall use the Software as a stand-alone product or engage in any form of reselling or redistribution of the Software, directly or indirectly (including the use of the Software facilitating of an arms-length Business Process Outsourcing transaction).
+(j) The Software is not designed or developed for use in high-risk activities, hazardous environments requiring fail-safe performance, including without limitation in the operation of nuclear facilities, aircraft navigation or control systems, air traffic control, or weapons systems, or any other application in which the failure of the Software could lead to severe physical or environmental damages. The Client agrees and agrees to procure that End Users do not use the Software for high-risk activities.
+
+4. INTELLECTUAL PROPERTY
+4.1 All Intellectual Property Rights in and to the Software, except for Open-Source Software or Free Software, (including in all applications and Documentation) belong to and shall remain vested in Kremowka or the relevant third-party owner. To the extent that the Client, any of its Affiliates or any person acting on its or their behalf acquires any Intellectual Property Rights in the Software, Documentation or applications, the Client shall assign or procure the assignment of such Intellectual Property Rights with full title guarantee (including by way of present assignment of future Intellectual Property Rights) to Kremowka or such third party as Kremowka may elect. The Client shall execute all such documents and do such things as Kremowka may consider necessary to give effect to this Clause 4.1.
+4.2 The Client may not use any materials provided by Kremowka to create any Software whose expression is substantially like that of the Software.
+4.3 Ownership of the Intellectual Property in any code written by or on behalf of Kremowka under or because of this Agreement, whether forming part of the Software, or not, shall remain with Kremowka which shall be free to licence it to others without restriction.  Save as indicated in this Agreement, the Client accepts that it shall have no rights over Kremowka’s Intellectual Property and undertakes not to use the Software or any part thereof other than as permitted by the terms of this Agreement.
+4.4 If Clients use of the Software subjects the Client to the terms of any license governing the use of Free Software, then information concerning such Free Software and the applicable license must be incorporated or referenced in the Documentation. To the extent required by the license to which the Free Software is subject, the terms of such license will apply in lieu of the terms of this Agreement with respect to such Free Software, including without limitation, any provisions governing attribution, access to source code, modification, and reverse-engineering.  Full details on the use of free software are maintained in the Documentation for the version of the software installed by the Client.
+4.5 Kremowka may use any feedback and suggestions for improvement relating to the Software provided by the Client, the Affiliates or any End User without charge or limitation (Feedback). The Client hereby assigns (or shall procure the assignment of) all Intellectual Property Rights in the Feedback with full title guarantee (including by way of present assignment of future Intellectual Property Rights) to Kremowka at the time such Feedback is first provided to Kremowka.
+4.6 The Client hereby waives (and shall ensure all relevant third parties have waived) all rights to be identified as the author of any work, to object to derogatory treatment of that work and all other moral rights in the Intellectual Property Rights assigned to Kremowka under this Agreement.
+4.7 Except for the rights expressly granted in this Agreement, the Client, End User, any Affiliate of the Client, and their direct and indirect sub-contractors, shall not acquire in any way any title, rights of ownership, or Intellectual Property Rights of whatever nature in the Software (including the applications or Documentation) and no Intellectual Property Rights of either party are transferred or licensed because of our Agreement.
+4.8 This Clause 4 shall survive the termination or expiry of our Agreement.
+
+5. DEFENCE AGAINST INFRINGEMENT CLAIMS
+5.1 Subject to Clauses 5.2 and 5.3, Kremowka shall:
+5.1.1 defend at its own expense any claim brought against the client by any third party alleging that the client’s use of the Software infringes any copyright, database right or registered trademark, registered design right or registered patent (an IP Claim); and
+5.1.2 pay, subject to clause 5.3, all costs and damages awarded or agreed in settlement or final judgment of an IP Claim.
+5.2 The provisions of Clause 5.1 shall not apply unless the client:
+5.2.1 promptly notifies Kremowka upon becoming aware of any actual or threatened IP Claim and provides full written particulars;
+5.2.2 makes no comment or admission and takes no action that may adversely affect Kremowka’s ability to defend or settle the IP Claim;
+5.2.3 provides all assistance reasonably required by Kremowka subject to Kremowka paying the client’s reasonable costs; and
+5.2.4 gives Kremowka sole authority to defend or settle the IP Claim as Kremowka considers appropriate.
+5.3 Kremowka shall have no liability or obligation under this Clause 5 in respect of (and shall not be obliged to defend) any IP Claim which arises in whole or in part from:
+5.3.1 any modification of the Software (or any part) without Kremowka’s express written approval;
+5.3.2 any non-Kremowka Materials;
+5.3.3 any Client Data;
+5.3.4 any Free or Trial Services (or any Support Services provided in connection with them);
+5.3.5 any Open-Source Software;
+5.3.6 any breach of this Agreement by the Client;
+5.3.7 installation or use of the Software (or any part) otherwise than in accordance with this Agreement; or
+5.3.8 installation or use of the Software (or any part) in combination with any software, hardware or data that has not been supplied or expressly authorised by Kremowka.
+5.4 The provisions of this Clause 5 set out the client’s sole and exclusive remedy (howsoever arising, including in contract, tort, negligence or otherwise) for any IP Claim provided such limitation is not prevented by law.
+
+6. SUPPORT SERVICES
+6.1 Support is optionally available and subject to the payment of fees as set out in Clause 8 of this agreement.
+6.2 Subject to the remaining provisions of this Clause and receipt fees as Clause 8.1, Kremowka shall provide online chat or email support to the Client in respect of the use and implementation of the Software during Working Hours.  In addition, throughout the duration of the term of this Agreement, Kremowka shall also support the Client in implementing any upgrades or new releases of the Software and in the same manner.
+6.3 The Client will notify Kremowka promptly if the Software is not operating correctly and as per documentation detailing the supported Software functionality available at https://help.jube.io for the applicable for the version of the Software installed by the Client.
+6.4 It is the minimum requirement that the Client shall:
+(a) Log any support requests in the online chat or by emailing support@kremowka.com.  The Ticket will be the primary source for follow up information and support updates.  From time-to-time Kremowka will create the Ticket on the Client’s behalf as the result of an email or telephone call.  No support shall be provided until a Ticket has been created and a reference number made available to the Client;
+(b) Respond to requests for information from Kremowka, logged in the Kremowka helpdesk; and
+(c) Allow Kremowka reasonable opportunity and time to investigate and attend to Tickets.
+6.5 Tickets are to be treated by priority within working hours.  Kremowka shall use reasonable endeavours to deal with Tickets within the following time frames:
+(a) Critical: Support to be provided within 4 hours, a viable Work Around within 8 hours and Resolution available within 24 hours. "Critical" shall mean a total failure of the Software.
+(b) Normal: Support to be provided within 24 hours, a viable Work Around within 2 working days and Resolution available within 2 weeks. "Normal" shall mean a failure of a substantial or material part of the Software.
+(c) Low: Support to be provided within 36 hours, a viable Work Around 5 working days and Resolution available within 5 weeks. "Low" shall mean a minor fault in the Software.
+6.6 The Client shall support the use by Kremowka of remote support tools and shall permit Kremowka to provide remote access support where Kremowka reasonably discretion (and after consultation with the Client) requires.  However, Kremowka shall only be able to take control of the Client’s computer at the request of, and because of the explicit intervention of, the Client.  During such sessions, Kremowka will investigate the issue(s) which has/have caused the Client to seek support but will not make any changes to any Software or data without the Client’s specific consent, and (except in the case of complete system failure) without the changes first being implemented and tested upon the Client’s test server.
+6.7 For the duration of this agreement, Kremowka will provide support to the Client in connection with questions and issues arising from the installation, configuration, and use of the Software; bug fixes and issue resolution; and access to Major and Minor Releases of the Software and as defined as:
+(a) Commercially available major new releases, modifications or enhancements to the same Software as designated by a change in the number to the left of the decimal in the version number in the Software.
+(b) Minor Releases/Patches/Micro Updates and generally commercially available code corrections, patches, updates, and minor version releases of the same Software as designated by a change in the number to the right of the decimal in the version number in the Software.
+(c) Software minor Development, Bug Fixing and Patching is often provided as Minor Releases/Patches/Micro Updates to the prevailing major release of Software.  Minor Releases/Patches/Micro Updates have minimal testing and are intended for fix bugs and to deploy low risk feature enhancement, rather than enhancing the Software substantially. 
+(d) Support of installation or upgrade includes providing guidance and troubleshooting in connection with the Client downloading and installing or upgrading of the Software.
+(e) Troubleshooting the Client configuration settings for existing installations on approved platforms to ensure proper operation and connectivity.
+(f) Basic Product Functionality Questions where Kremowka support staff will answer "how to" questions or typical "Use Case" questions related to standard and intended product usage.
+(g) Product Defect Verification, Client Reporting, Known Bug identification and remediation tracking.
+(h) Enhancement and Feature Request tracking where not ordered and paid for by the Client as an Out-of-Scope Service.
+6.8 Support does not include:
+(a) Software that is used on or in conjunction with hardware or Software other than that specified in the applicable documentation;
+(b) Any version of the Software for which Support services have been discontinued by Kremowka.  Kremowka will only support the last two major versions of the Software;
+(c) Training, professional services, development, customisation, integration, and any issues arising from non-standard and documented usage of the Software, which are Out of Scope services as set forth in Clause 7; and
+(d) Any middle ware or customised Software that is intended to act as a bridge or transformation service between the client systems and Kremowka, irrespective of the bridge having been developed by Kremowka as an Out-of-Scope Service.
+
+7. OUT OF SCOPE SERVICES
+7.1 The Client may from time-to-time request that Kremowka perform Out-of-Scope Services (commonly known and marketed as Professional Services). Except as otherwise agreed by the Client in writing, within 5 days of receipt by Kremowka of the Client order, Kremowka will provide the Client with a written proposal for such Out-of-Scope Service (Order) that will include:
+(a) A description of the services, functions, and responsibilities Kremowka anticipates performing in connection with such Out-of-Scope Service;
+(b) Specific performance expectations of the parties;
+(c) Desired testing outcomes;
+(d) A schedule for commencing and completing such Out-of-Scope Service;
+(e) Prospective Fees to be charged by Kremowka for such Out-of-Scope Service, including a detailed breakdown of such Fees;
+(f) A description of any new Software, customisation, configuration, or professional services to be provided by Kremowka in connection with such Out-of-Scope Service; and
+(g) Such other information as may be requested by the parties.
+7.2 Subject to Clause 8.2 and Kremowka receiving an appropriate Order from the Client, and acceptance of this agreement in writing or by correspondence, and to this being accepted by Kremowka in writing or by correspondence, Kremowka shall provide such Out-of-Scope Services in relation to the Software as the Client shall request.
+7.3 All such work shall be exclusively subject to the terms of this Agreement, which shall take priority over any other terms mentioned on, or referred to in, the Order.
+7.4 It is the Client’s obligation to perform testing and approve fitness for purpose.
+
+8. CHARGES AND PAYMENT
+8.1 Subject to Clause 6 of this agreement, the Client shall pay Kremowka the Support Fee as set out in https://www.kremowka.com/pricing  in advance for each calendar for the duration of the term of this Agreement.  
+8.2 Subject to Clause 7 of this agreement, the Client shall pay Kremowka the hourly rate set the website https://www.kremowka.com/pricing upon delivery.
+8.3 If the Client uses, or permits persons or entities to use, the Software in any manner which is not authorised by this Agreement, then the Client shall pay Kremowka for broadening the scope of the licences granted under this Agreement to cover such unauthorized use.  The sum payable shall be an amount equal to:
+(a) the fees which Kremowka would have levied in accordance with its then current rates for such use, had the Client been granted a licence which authorised such use upon the date when it commenced; and
+(b) interest at the rate provided for in Clause 8.6(b) below, from the date when the additional fees due under Clause 8.1 or Clause 8.2 above fell due, to the date of payment.
+8.4 All sums due to Kremowka under the terms of this Agreement are exclusive of any Value Added Tax (and all similar taxes) which are payable in respect of the same (whether due to Cyprus or any other country’s Governmental authorities), and all such taxes shall also be payable by the Client where appropriate.
+8.5 Fees set out in https://www.kremowka.com/pricing  may vary from time-to-time at the sole discretion of Kremowka.
+8.6 In the event of any delay in payment, in addition to any other rights it may have, Kremowka shall be entitled to:
+(a) Withhold any remaining Services (without penalty) until such time as payment is made, and any timescales for delivery Services agreed with the Client shall then be adjusted accordingly.
+(b) Charge the Client interest at 8% per annum above the then current Bank of England base rate on any unpaid sums from the due date until cleared funds are received in its account – such sums being calculated daily; and  
+(c) Charge the Client reasonable administration and debt collection fees as appropriate.
+
+9. WARRANTIES
+9.1 Each party represents and warrants to the other that it has obtained, where required by law or regulatory authority, all registrations, permits, licences and approvals necessary in any relevant country for it to perform its obligations hereunder, or alternatively, that it is exempt from obtaining them. Upon request, each party will provide the other with copies of all such registrations, permits, licences and approvals. Each party further warrants and undertakes to the other that in performing its obligations under the terms of this Agreement it will comply with all applicable national and local laws, regulations, and ordinances.
+9.2 The Client acknowledges and agrees that it is entirely responsible for its Client Information and any use that it or any User or third party may make of it for any purposes, and that Kremowka shall have no responsibility for the Client Information or such use. Without prejudice to the generality of the previous sentence the Client hereby undertakes:
+(a) To inform itself (and, if appropriate, Kremowka) concerning, and in performing its obligations under this Agreement fully to comply with, all laws, regulations, licences or binding codes or standards of practice relevant to personal data (including without limitation the Data Protection Laws as defined in Schedule 1);
+(b) Not to provide any item of Client Information or upload, transmit or download any message or material that:
+(i) Is defamatory, racist, or sexist, threatening or menacing to any person or group of people, or contains any obscene elements (in particular, anything which is or could be interpreted as paedophilia), or which in the Client reasonable opinion is likely to cause annoyance or distress to any person; or
+(ii) Infringes the copyright or other Intellectual Property Rights of any other person, company, or partnership, anywhere in the world; or
+(iii) In any way act in a manner that constitutes, or may involve the Company in, sending any unsolicited e-mail.
+9.3 Kremowka shall use reasonable endeavours to provide the Support and Out of Scope Services in a professional and competent manner and broadly in accordance with timescales agreed in writing between the parties from time to time.  However:
+(a) Kremowka does not warrant that the use of the Software will be uninterrupted or error-free.
+(b) Kremowka cannot accept liability for any delay in carrying out its obligations under this Agreement due to matters beyond its reasonable control, including the Client’s failure to comply (either in whole or in part) with its own obligations under it.
+(c) the nature of the Software and services is such that no guarantee or warranty can be given that it will be fit for purpose and is determined by a combination of the:
+(i) requirements provided to Kremowka for out-of-scope services and;
+(ii) testing carried out by the Client to ensure fitness for purpose.
+9.4 No warranties whatsoever are given or can be implied in respect of the Software, which is provided to the Client as is.
+9.5 To enable Kremowka to effectively provide the Services the Client warrants that it shall:
+(a) Use all commercially reasonable endeavours to ensure that all information provided to Kremowka concerning the Client’s requirements are complete and accurate;
+(b) Supply all data reasonably required by Kremowka to enable it to effectively provide the Services;
+(c) Attend such meetings or take part in such conference calls as Kremowka shall reasonably require enabling it to provide the Services effectively and efficiently;
+(d) Ensure that whenever remote access support is requested by it, an appropriately experienced and authorised representative of the Client will authorise and supervise all the actions of Kremowka;
+9.6 All other conditions, warranties or other terms which might have effect between the parties or be implied or incorporated into this Agreement or any collateral contract, whether by statute, common law or otherwise, are hereby excluded, including the implied conditions, warranties, or other terms as to satisfactory quality, and fitness for purpose.
+9.7 Each Party represents and warrants that: 
+(a) It has full power and authority to enter in and perform this Agreement and that the execution and delivery of this Agreement has been duly authorized; and 
+(b) This Agreement and such Party’s performance hereunder will not breach any other agreement to which the Party is a party or is bound or violate any obligation owed by such Party to any third party.
+
+10. LIABILITY AND EXCLUSIONS
+10.1 Kremowka shall not be responsible for failure or delay in providing the Software or services if such failure or delay arises directly from the Client being in breach of its obligations under this Agreement or where failure is attributable to Client infrastructure or equipment failure or the actions of Client Personnel;
+10.2 Without prejudice to Clause 10.1 and except as expressly stated in Clause 9.4, Kremowka shall have no liability for any losses or damages which may be suffered by the Client (or any person claiming under or through the Client), whether the same are suffered directly or indirectly or are immediate or consequential, and whether the same arise in contract, tort (including negligence) or otherwise howsoever, which fall within any of the following categories:
+(a) special damage even though Kremowka was aware of the circumstances in which such special damage could arise;
+(b) loss of profits;
+(c) loss of anticipated savings;
+(d) loss of business opportunity;
+(e) loss of goodwill;
+(f) loss or corruption of data;
+(g) breach of data;
+(h) loss of legal costs.
+10.3 The total liability of Kremowka, whether in contract, tort (including negligence) or otherwise and whether in connection with this Agreement or any collateral contract, shall in no circumstances exceed a sum equal to the aggregate of all fees received by Kremowka from the Client under the terms of this Agreement in the 12-month period prior to the claim arising.
+10.4 The Client agrees that, in entering into this Agreement, either it did not rely on any representations (whether written or oral) of any kind or of any person other that those expressly set out in this Agreement or (if it did rely on any representations, whether written or oral, not expressly set out in this Agreement ) that it shall have no remedy in respect of such representations and (in either case) Kremowka shall have no liability otherwise than in accordance with the express terms of this Agreement.
+10.5 The exclusions in Clause 9.3 and Clause 10.1 shall fully apply permissible at law, but Kremowka does not exclude liability for:
+(a) death or personal injury caused by the negligence of Kremowka, its officers, employees, contractors, or agents;
+(b) fraud or fraudulent misrepresentation;
+(c) any other liability which may not be excluded by law.
+(d) The Client shall indemnify Kremowka against all liabilities, costs, expenses, damages, and losses (including any direct, indirect, or consequential losses, loss of profit, loss of reputation and all interest, penalties and legal and other professional costs and expenses) suffered or incurred by Kremowka arising out of or in connection with:
+(e) any breach by the Client, its employees, representatives, and agents of any of the terms of this Agreement;
+(f) any negligent act of the Client, its employees, representatives, and agents;
+(g) any use of the Software in any way which infringes the Intellectual Property Rights of any third-party anywhere in the world;
+(h) any use of the Software other than in accordance with this Agreement; and
+(i) any breach by the Client of the confidentiality provisions in Clause 11.
+10.6 Kremowka does not accept any responsibility or any liability for enabling the Client to link to any site on the World Wide Web, or the contents of any other site, whether one from which the Client may have been linked to, or to which the Client may link from, other than the Jube website.
+
+11. CONFIDENTIALITY
+11.1 Neither party shall, whether before or after termination of this Agreement, disclose any of the Confidential Information to any other person or organisation without the disclosing party’s prior written consent.  Neither shall it use any or all the Confidential Information for any purpose other than solely in connection with the performance of its obligations under this Agreement.
+11.2 The provisions of this Clause shall not apply to the whole or any part of the Confidential Information which:
+(a) becomes part of the public domain other than because of a breach of this Agreement;
+(b) is obtained (otherwise than directly or indirectly from the disclosing party) free of any duty of confidentiality; or
+(c) is necessarily disclosed pursuant to a statutory legal or regulatory obligation.
+11.3 Despite the provisions of Clause 11.2(a) above, disclosure of Confidential Information to the recipient party’s employees, on a strictly need to know basis, shall be permitted PROVIDED THAT the relevant employees are, at the time of such disclosure, bound by obligations of confidentiality in relation to the Confidential Information which are no less onerous than those set out in this Agreement, and that the Client accepts that any breach of those obligations by any of its employees will also constitute a breach by it of the terms of this Agreement.
+11.4 Neither party shall make any public announcement regarding the existence or subject matter of this Agreement without first obtaining the other party’s prior written consent.
+11.5 Without prejudice to any other rights or remedies that either party may have, it is acknowledged and agreed that if the Confidential Information is used or disclosed other than in accordance with the terms of this Agreement, the disclosing party shall, without proof of special damage, be entitled to an injunction or other equitable relief for any threatened or actual breach of the provisions of this clause, in addition to any damages or other remedy to which it may be entitled.
+
+12. TERM AND TERMINATION
+12.1 This Agreement will continue in full force and effect unless terminated earlier by either Party as provided by this Agreement. 
+12.2 Subject to the payment of any outstanding fees owned to Kremowka the client may terminate this agreement without cause at any time upon notice or by invocation of the Marketplace cancelation functionality.
+12.3 Either Party shall be entitled to terminate this Agreement if:
+(a) the other Party commits a material breach of any term of this Agreement and (if such breach is remediable) fails to remedy that breach within a period of 30 days after being notified to do so; and/or
+(b) the other Party repeatedly breaches any of the terms of this Agreement in such a manner as to reasonably justify the opinion that its conduct is inconsistent with it having the intention or ability to give effect to the terms of this Agreement; or
+(c) the other party has failed to pay any amount due under our Agreement on the due date and such amount remains unpaid within 20 Business Days after the other party has received notification that the payment is overdue.
+12.4 Any breach by the Client of Clauses 4, 5 or Schedule 1, shall be deemed a material breach of this Agreement which is not remediable.
+
+13. EFFECT OF TERMINATION
+13.1 Upon termination of this Agreement the licences granted hereunder shall automatically terminate and the Client shall:
+(a) return to Kremowka or provide undertaking of destruction of all documents and materials (and all copies) containing, reflecting, incorporating, or based upon the Confidential Information;
+(b) to the extent possible, shall erase all the Confidential Information from all computer systems and electronic storage media in which any of it is stored; and
+13.2 Those obligations of the parties which are expressly or by implication intended to come into force or continue in force following termination of this Agreement, including those in respect of payment, shall survive such termination and hence remain enforceable.
+
+14. FORCE MAJEURE
+14.1 Neither party shall be liable for any delay in performing, or for failure to perform, its obligations under this Agreement if the delay or failure results from any cause or circumstance beyond its reasonable control, including any breach or non-performance of this Agreement by the other party ("Force Majeure Event"), provided the same arises without the fault or negligence of such party. If a Force Majeure Event occurs, the date(s) for performance of the obligation affected shall be postponed for as long as is made necessary by the Force Majeure Event, provided that, if any Force Majeure Event continues for a period of or exceeding three months, either party may terminate this Agreement immediately by written notice to the other party. Each party shall use its reasonable endeavours to minimise the effects of any Force Majeure Event.
+
+15. NOTICES
+15.1 Any notice required to be given under this Agreement may be delivered personally or sent by airmail post, courier or transmitted by fax to the other party at the address given at the beginning of this Agreement, or such other addresses as may be notified in accordance with this clause from time to time. Any notice so sent shall be deemed to have been duly given:
+(a) if sent by personal delivery or courier, on delivery at the address of the relevant party;
+(b) if sent by first airmail post, four Business Days after the date of posting; and
+(c) if sent by fax, on confirmation of transmission.
+
+16. DATA PROTECTION
+16.1 The Parties acknowledge that the Software may be used to process Personal Data regulated by the Data Protection Laws and the Parties shall comply with the data processing requirements as set out in Schedule 1.
+
+17. RELATIONSHIP OF PARTIES
+17.1 Nothing in this Agreement, and no action taken by the parties pursuant to this Agreement, shall constitute, or be deemed to constitute, a partnership between the parties.
+17.2 Neither party shall have any right to enter any contractual relationship or otherwise bind or oblige the other party without the prior written consent of the other party.  Nothing in this Agreement constitutes such consent.
+
+18. VARIATION
+18.1 No variation, addendum or amendment to this Agreement shall bind either party unless made in writing and signed by an authorised representative of both parties and;
+
+19. WAIVERS
+19.1 Failure of either party to enforce or exercise, at any time or for any period, any term of this Agreement does not constitute, and shall not be construed as, a waiver of such term and shall not affect the right to enforce such term, or any other term contained in this Agreement, later.
+19.2 A waiver of any breach or default under this Agreement must be in writing and shall not constitute a waiver of any other or subsequent breach or default of the same or any other provision of it.
+
+20. ASSIGNMENT
+20.1 The Client shall not, without the prior written consent of Kremowka, assign all or any part of its rights under this Agreement for any purpose.   
+
+21. SEVERANCE
+21.1 If at any time any of the provisions of this Agreement become illegal, invalid, or unenforceable in any respect, this shall not adversely affect the legality validity and enforceability of the remaining provisions in any way.  However, if omission of any illegal, invalid, or unenforceable provision would render the effect of the remaining terms of this Agreement materially different from that which the parties originally intended to enter, then the parties shall immediately enter negotiations in good faith to agree an alternative clause which achieves as closely as is possible, the commercial aims of the parties as set out in the original term.  If the parties cannot agree such an alternative clause within 14 days, this Agreement shall terminate automatically.
+
+22. AFFILIATES AND CONTRACTORS
+22.1 With respect to Affiliates and Contractors that the Client allows to Kremowka’s Intellectual Property: 
+(a) The client remains responsible for all obligations hereunder arising in connection with such Affiliate’s or Contractor’s use of Kremowka’s Intellectual Property; and 
+(b) The client agrees to be directly liable for any act or omission by such Affiliate or Contractor to the same degree as if the act or omission were performed by the client such that a breach by an Affiliate or a Contractor of the provisions of this Agreement will be deemed to be a breach by the client. 
+(c) The performance of any act or omission under this Agreement by an Affiliate or a Contractor for, by or through the client will be deemed the act or omission of the Client.
+
+23. ENTIRE AGREEMENT
+23.1 This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous drafts, agreements, arrangements, and understandings between them, whether written or oral, relating to the subject matter. Each party acknowledges that, in entering into this Agreement, it has not relied on, and shall have no right or remedy in respect of, any representation or warranty (whether made negligently or innocently) that is not set out in this Agreement. Each party agrees that its only liability in respect of those representations and warranties that are set out in this Agreement (whether made innocently or negligently) shall be for breach of contract. Nothing in this clause shall limit or exclude any liability for fraud or fraudulent misrepresentation.
+
+24. GOVERNING LAW AND JURISDICTION
+24.1 This Agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the law of Cyprus. 
+24.2 The parties to this Agreement irrevocably agree that the courts of Cyprus shall have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with this Agreement or its subject matter or formation (including non-contractual disputes or claims).
+
+25. DISPUTE RESOLUTION
+25.1 If a dispute arises between the Parties in connection with the interpretation, implementation or operation of this Agreement or its subject matter or the validity of any document furnished by the Parties under this Agreement which cannot be resolved amicably by the Parties within a 10-day period from a formal notice of a dispute, the Parties and their representatives will promptly meet to consider whether there is a possibility of resolution by mediation.
+25.2 If any such dispute cannot be resolved thereby within a period of sixty (60) days after such notice has been given, the dispute will be referred to and finally resolved by arbitration in accordance with the then-current rules of the International Chamber of Commerce (ICC). The arbitration proceedings will be conducted in Cyprus. The language of the arbitration proceedings will be English. Arbitration proceedings will be conducted before one arbitrator selected in accordance with ICC rules. The arbitrator will be experienced in conducting international arbitrations in the Software industry. The decision resulting from the arbitration will be final and binding on the parties.  The parties agree that, except as required by applicable law or regulation or in connection with a legal proceeding, they will keep confidential the existence and outcome of any arbitration proceeding, as well as the contents thereof, and will require the arbitrators to adhere to the same obligation of confidentiality.  The arbitrators shall have the authority to grant specific performance, and to allocate among the parties to the dispute the costs of arbitration in such equitable manner as the arbitrators may determine.  The prevailing party in the arbitration shall be entitled to receive reimbursement of its reasonable expenses (including attorneys’ fees) incurred in connection therewith.  Judgment upon the award so rendered may be entered in any court having jurisdiction or application may be made to such court for judicial acceptance of any award and an order of enforcement.
+25.3 Notwithstanding the foregoing, each of the parties shall have the right to make a claim for injunctive relief or other emergency measures in order to protect its rights and intellectual property at any time, regardless of whether the dispute resolution procedure detailed in Clauses 25.1 or 25.2 has been completed. 
+
+26. MISCELLANEOUS
+26.1 The rights and powers which either Party has under this Agreement are in addition to, and not in substitution for any other rights or remedies which it would otherwise have. 
+26.2 No term of this Agreement is intended to be enforceable by any person who is not a party to it.
+
+Schedule 1. DATA PROCESSING AGREEMENT (“DPA”)
+
+1. DEFINITIONS
+1.1 For the purposes of this DPA, the terms defined in this schedule shall have the meanings as set forth in the Agreement. Any terms not specifically defined by this DPA or the Agreement shall have the meaning given by GDPR.
+1.2 Terms defined in this DPA will have the meanings given below. Defined terms may be used in the singular or plural depending on the context.
+‘Client Personal Data’ means all personal data and information provided by the Client to, or accessible by Kremowka under this Agreement in connection with the supply of the Services);
+‘Data Protection Laws’ means Cyprus Law 125(I)2018, the Privacy and Electronic Communications (EC Directive) Regulations 2003, the General Data Protection Regulation (Regulation (EU) 2016/679) (“GDPR”), and laws of similar purpose or effect in any relevant jurisdiction, in each case as amended, updated, re-enacted, or replaced from time to time;
+‘EU Model Clauses’ means the standard contractual clauses for the transfer of personal data to processors established in third countries which do not ensure an adequate level of data protection under Directive 95/46/EC, pursuant to the European Commission Decision of 5 February 2010;
+‘GDPR’ is as defined in “Data Protection Laws” above;
+
+2. SUBJECT MATTER OF THE DATA PROCESSING AGREEMENT
+2.1 This Data Processor Agreement (“DPA”) applies to the processing of Client Personal Data under the Agreement.
+2.2 The Client will be the “Data Controller” and Kremowka will be the “Data Processor” as defined under GDPR. Each Party agrees that it shall comply with its obligations as a Data Controller and a Data Processor, respectively under the Data Protection Laws in exercising its rights and performing its obligations under this Agreement.
+
+3. NATURE AND PURPOSE OF PROCESSING REGULATED DATA
+3.1 The Data Processor shall process Personal Data to provide the Services as set forth in the Agreement.
+
+4. TYPES AND CATEGORIES OF PERSONAL DATA
+4.1 Categories of Data Subjects are as follows:
+* End Users;
+* users of the Client’s services; and
+* any other categories of Data Subjects that may be captured by the Software.
+
+4.2 The types of Personal Data are as follows:
+* contact information of End Users;
+* End User’s preferences and their interaction history with the Software; and
+* Any other types of Personal Data that may be captured by the Software.
+
+5. RIGHTS AND OBLIGATIONS OF THE CONTROLLER
+5.1 The Data Controller hereby instructs the Data Processor to take such steps in the processing of Personal Data as are reasonably necessary for the performance of the Data Processor’s obligations under the Agreement, and agrees that such instructions, including the terms of this DPA and the Agreement, constitute its full and complete instructions as to how Personal Data shall be processed by the Data Processor.
+
+6. RIGHTS AND OBLIGATIONS OF THE PROCESSOR
+6.1 The Data Processor shall only process Personal Data in accordance with the Data Controller’s written instruction as specified herein and shall not use Personal Data except to make available and maintain the Software as instructed by the Agreement, unless such processing is required by law to which the Data Processor is subject, in which case the Data Processor shall, to the extent permitted by law, inform the Data Controller of that legal requirement prior to carrying out the applicable processing.
+6.2 The Data Processor shall immediately inform the Data Processor if, in the Data Processor’s reasonable opinion, an instruction from the Data Controller infringes the Data Protection Laws.
+6.3 If Personal data originates in the European Union, the Data Processor shall not transfer Personal Data outside the European Economic Area (“EEA”) without the prior written consent of the Data Controller and not without procuring provision of adequate safeguards (as defined by the European Commission from time to time).
+6.4 The Data Processor shall take reasonable steps to ensure the reliability of its agents and employees who have access to any Personal Data.
+
+7. SECURITY
+7.1 Considering the nature, scope, context and purposes of processing, the Data Processor will use commercially reasonable efforts to maintain the administrative, physical, technical, and organisational measures to protect any Personal Data accessed or processed by it against unauthorised or unlawful processing or accidental loss, destruction, damage, or disclosure. 
+
+8. PERSONAL DATA BREACH NOTIFICATION
+8.1 If the Data Processor suffers a Personal Data Breach, the Data Processor shall inform the Data Controller within twenty-four (24) hours upon learning of the same and reasonably cooperate with the Data Controller to mitigate the effects and to minimise any damage resulting therefrom. To the extent reasonably possible, the notification to the Data Controller shall include: (i) a description of the nature of the incident, including where possible the categories and approximate number of data subjects concerned and the categories and approximate number of Personal Data records concerned; (ii) the name and contact details of the Data Processor’s data protection officer or another contact point where more information can be obtained; (iii) a description of the likely consequences of the incident; and (iv) a description of the measures taken or proposed to be taken by the Data Processor to address the incident including, where appropriate, measures to mitigate its possible adverse effects.
+
+9. SUBPROCESSORS
+9.1 The Data Processor may authorise third parties to process the Personal Data on its behalf.
+9.2 Those subcontractors approved as at the commencement of this Agreement are as set out in this clause as follows:
+* Cloud-based computing – Amazon Web Services;
+* Helpdesk and Live Chat - Live Chat Inc;
+* Email, Storage, Project Management and Office Productivity – Microsoft.
+* Sales Productivity – YesWare.
+* Accounting and Billing – Xero.
+
+10. ANONYMISED PERSONAL DATA
+10.1 The Client acknowledges and agrees that all Personal Data in relation to browsing analytics is anonymised and that therefore restrictions under the Data Protection Legislation do not apply (Art. 26 GDPR).
+10.2 Further, the Client hereby grants a perpetual and irrevocable licence to the Data Processor to use, store and share this data with third parties for the purposes of improving its products and services.
+
+11. ASSISTANCE WHEN HANDLING REQUESTS FROM DATA SUBJECTS
+11.1 Taking into account the nature of processing and the information available to the Data Processor, the Data Processor will provide reasonable support to the Data Controller: (i) in complying with any legally mandated request for access to or correction of any Personal Data by a data subject under Chapter III GDPR (and where such request is submitted to the Data Processor, the Data Processor will promptly notify the Data Controller of it); (ii) in responding to requests or demands made to the Data Controller by any court or governmental authority responsible for enforcing privacy or data protection laws; or (iii) in its preparation of a Data Protection Impact Assessment.
+
+12. AUDIT
+12.1 On the Data Controller’s written request, and subject to appropriate confidentiality obligations, the Data Processor will make available to the Data Controller information reasonably requested by the Data Controller in writing with regards to the Data Processor’s processing of Personal Data under this DPA. The Data Controller agrees to exercise any right it may have to conduct an audit or inspection under GDPR (or the EU Model Clauses if they apply) by requesting the foregoing information.
+
+13. RETURN/DESTRUCTION OF PERSONAL DATA
+13.1 Upon termination of the Agreement, the Data Processor shall delete or return all Personal Data in accordance with the Data Controller’s written instructions.
